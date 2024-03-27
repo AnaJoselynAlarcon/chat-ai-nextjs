@@ -21,6 +21,22 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/page.js",
+    "src/app/layout.js",
+    "src/components/ui/button.js",
+    "src/components/ui/input.js",
+    "src/components/ui/form.js",
+    "src/components/ui/dialog.js",
+    "src/components/ui/card.js",
+    "src/components/ui/label.js",
+    "src/components/ui/textarea.js",
+    "src/app/sing-up/[[...sign-up]]/page.js",
+    "src/app/sing-in/[[...sign-in]]/page.js"
+  ],
   "exclude": ["node_modules"]
 }
